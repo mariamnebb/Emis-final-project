@@ -67,6 +67,15 @@ width: 100%;
     margin-left: 60px;
     
 }
+.burger{
+    position: relative;
+    display: none;
+}
+.fa-bars, .fa-times{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
 /* first section */
 .divcl{
     width: 100%;
@@ -235,3 +244,21 @@ width: 100%;
     text-shadow: 2px 2px 5px black;
     text-align: center;
 }
+
+ .boxfooter{
+    width: 100%;
+    background-color:#D9D9D9;
+    
+
+} 
+ .footer-li2{
+    font-size: 18px;
+    /* font-family: "Inter", sans-serif; */
+
+ }
+ .h3footer{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    color: #00820D;
+    text-shadow: 2px 2px 5px black;
+ }

@@ -1,0 +1,29 @@
+@media(max-width:768px){
+    .burger{
+        display: block;
+        margin-right: 30px;
+    }
+    .navigation{
+        display: none;
+    }
+    .activeNavigation{
+        display: block;
+        
+    }
+    .navigation{
+        flex-direction: column;
+        background-color: rgb(194, 139, 165);
+        position: absolute;
+        left: 50px;
+        top: 70px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    ul{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+}
