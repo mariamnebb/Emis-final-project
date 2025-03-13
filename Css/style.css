@@ -21,6 +21,7 @@ a{
     top: 0;
     left: 0;
     z-index: 900;
+    background-color: white;
     
     
 
@@ -32,8 +33,8 @@ a{
 .li-nav{
  
     margin-right: 80px;
-    font-family: "Courgette", cursive;
-    /* font-family: "Inter", sans-serif; */
+    
+    font-family: "Inter", sans-serif;
     font-size: 30px;
     
 }
@@ -102,8 +103,8 @@ width: 100%;
     padding-top: 60px;
     text-align:justify;
     letter-spacing: 3px;
-    /* font-family: "Inter", sans-serif; */
-    font-family: "Courgette", cursive;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Courgette", cursive; */
 }
 .p-cls::after{
     content: "Personal Blog";
@@ -118,8 +119,8 @@ width: 100%;
     color: black;
     padding-top: 70px;
     text-align: justify;
-    /* font-family: "Inter", sans-serif; */
-    font-family: "Courgette", cursive;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Courgette", cursive; */
     
    
    
@@ -137,7 +138,8 @@ width: 100%;
     font-size: 40px;
     color: black;
     text-align: center;
-    font-family: "Courgette", cursive;
+    /* font-family: "Courgette", cursive; */
+    font-family: "Inter", sans-serif;
    
 }
 .third-sectiondiv{
@@ -166,7 +168,8 @@ width: 100%;
     /* margin-left: 10px; */
     font-size: 25px;
     color: black;
-    font-family: "Courgette", cursive;
+    /* font-family: "Courgette", cursive; */
+    font-family: "Inter", sans-serif;
 
 }
 /* .div-3{
@@ -195,7 +198,8 @@ width: 100%;
     margin-left: 10px;
     font-size: 25px;
     color: black;
-    font-family: "Courgette", cursive;
+    /* font-family: "Courgette", cursive; */
+    font-family: "Inter", sans-serif;
 
 }
 .five-sectiondiv{
@@ -207,4 +211,27 @@ width: 100%;
     margin-top: 10px;
 
 
+}
+.errorText{
+    color: #f72222;
+  
+  #emailText{
+    display: block;
+    color: #f72222;
+    font-size: 20px;
+  }
+}
+.divuser{
+    background-color: white;
+    width: 100%;
+    margin-top: 100px
+    ;
+}    
+.h2user{
+    font-size: 50px;
+    color: black;
+    margin-top: 50px;
+    color: #00820D;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
 }
