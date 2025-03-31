@@ -93,23 +93,16 @@
  
    
      
- 
- .fa-bars, .fa-times{
-     position: absolute;
-     top: 20px;
-     right: 10px;
-     background-color: red;
- }
+
  .active{
      background-color: #00820D;
  } 
  
- .burger{
+ .burgerr{
      color: rgb(8, 8, 8);
      font-size: 30px;
      position: relative;
-     display: none;
-   }
+ }
  
    
  

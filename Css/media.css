@@ -1,52 +1,15 @@
 
-
-@media(max-width:768px){
+  
+@media(max-width:785px){
+    
+    
+          .navigation{
+        display: none;
+    }
     .burgerr{
         display: block;
-        
-    .navigation{
-        display: none;
-    }
-    .activeNavigation{
-        display:block
-        
-    }
-    .navigation{
-        flex-direction: column;
-        background-color: rgb(194, 139, 165);
-        position: absolute;
-        left: 50px;
-        top: 70px;
-        width: 200px;
-        height: 200px;
-    }
-    
-    ul{
-        flex-direction: column;
-        align-items: center;
-        
     }
 
-}}
-@media(max-width:768px){
-    .navigation{
-        display: none;
-    }
-    
-    
-    .burger{
-        display: block;
-        /* margin-left: 450px; */
-    }
-    
-    .activeNavigation{
-        display: block;
-        flex-direction: column;
-    }
-}
-.divph{
-    display: none;
-}
 .p2-cls{
     width: 80%;
     font-size: 10px;
@@ -58,9 +21,9 @@
 .h2user2{
     display: none;
 
-}
+} 
 
-.second-sectiondiv{
+ .second-sectiondiv{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -114,87 +77,15 @@
 }
 .divicon{
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     gap: 20px;
-    flex-direction: column;
-
+    
 }
-
-@media(max-width:325px){
-    .divph{
-        display: none;
-    }
-    .p2-cls{
-        width: 80%;
-        font-size: 10px;
-    }
-    .div-3{
-        flex-direction: column;
-        
-    }
-    .h2user2{
-        display: none;
-    
-    }
-    
-    .second-sectiondiv{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    
-    }
-    .third-sectiondiv{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-    .fourth-sectiondiv{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    
-    }
-    .footerdiv{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    
-    }
-    .five-sectiondiv{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    
-    }
-    .divuser{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    
-    }
-    .h2user2{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    
-    }
-    .boxfooter{ 
-        display: none;
-        
-    }
-    .divicon{
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        flex-direction: column;
-    
-    }
+  
+.divph{
+   display: none;
+}
+   
 
 }
