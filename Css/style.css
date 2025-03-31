@@ -494,10 +494,14 @@
    .divicon{
      width: 100%;
    }
-   /* .div-divide{
-     width: 100%;
-     height: 10px;
-     background-color: white;
+   .burgerbar{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-size: 30px;
+    color: #ffbf00;
+    display: none;
+
+
+    
    }
-   */
-   

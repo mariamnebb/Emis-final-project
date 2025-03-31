@@ -3,11 +3,11 @@
 @media(max-width:785px){
     
     
-          .navigation{
-        display: none;
-    }
-    .burgerr{
+    .burgerbar{
         display: block;
+    }
+       .navigation{
+        display: none;
     }
 
 .p2-cls{
