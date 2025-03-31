@@ -1,13 +1,12 @@
 @media(max-width:768px){
     .burger{
         display: block;
-        margin-right: 30px;
-    }
+        
     .navigation{
         display: none;
     }
     .activeNavigation{
-        display: block;
+        display:block
         
     }
     .navigation{
@@ -26,4 +25,4 @@
         
     }
 
-}
+}}

@@ -67,14 +67,22 @@ width: 100%;
     margin-left: 60px;
     
 }
+.h1-div{
+    padding-left: 50px;
+}
 .burger{
     position: relative;
     display: none;
+    
 }
 .fa-bars, .fa-times{
     position: absolute;
     top: 20px;
     right: 10px;
+    background-color: red;
+}
+.active{
+    background-color: #00820D;
 }
 /* first section */
 .divcl{
@@ -136,7 +144,7 @@ width: 100%;
 }
 .div-2{
     width: 100%;
-    height: 50px;
+    height: 70px;
     /* background-color: white; */
     margin-top: 10px;
     margin-bottom: 10px;
@@ -145,12 +153,14 @@ width: 100%;
 }
 
 .div2p{
-    font-size: 30px;
-    background-color: white;
-    color: black;
+    font-size: 40px;
+    /* background-color:  */
+    color: #010b02;
     text-align: center;
+    margin-top: 20px;
     /* font-family: "Courgette", cursive; */
     font-family: "Inter", sans-serif;
+    text-shadow: 2px 2px 5px black;
    
 }
 .third-sectiondiv{
@@ -232,24 +242,41 @@ width: 100%;
     font-size: 20px;
   }
 }
+.h2user2{
+    font-size: 30px;
+    margin-left: 700px;
+    margin-top: 30px;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+
+
+}
 
     
     
 .h2user{
     font-size: 30px;
-    padding-right: 50px;
-    margin-top: 50px;
-    color: #00820D;
-    text-shadow: 2px 2px 5px green;
+    padding-left: 150px;
+    margin-top: 30px;
+    color: black;
+    text-shadow: 2px 2px 5px black;
     
 }
 
  .boxfooter{
     width: 100%;
     background-color:#D9D9D9;
+    height: 120px;
+    padding-left: 50px;
+    padding-top: 20px;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;  */
+   
+ }
     
 
-} 
+
  .footer-li2{
     font-size: 18px;
     /* font-family: "Inter", sans-serif; */
@@ -260,7 +287,32 @@ width: 100%;
     font-family: "Inter", sans-serif;
     color: black;
     
+    
  }
+ .footerdiv{
+    display: flex;
+    align-items:flex-start; 
+    height: 180px;
+    flex-wrap: wrap;
+
+}
+.video{
+    display: inline-block;
+    top: 20px;
+    left:300 px;
+    bottom: 500px;
+    
+
+}
+.divicon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    /* align-items: flex-start; */
+    
+}
+ 
+
 
  /* fetch */
  .container {
@@ -301,6 +353,7 @@ width: 100%;
     width: 600px;
    border-radius: 4px;
     border-color: #00820D;
+    margin-bottom: 10px;
    
   }
   #password{
@@ -308,6 +361,7 @@ width: 100%;
     border-radius: 4px;
     width: 600px;
      border-color: #00820D;
+     margin-bottom: 10px;
 
 
   }
@@ -316,15 +370,31 @@ width: 100%;
     width: 600px;
     border-radius: 4px;
      border-color: #00820D;
+     margin-bottom: 10px;
+     
     
   }
   .buttoncl{
     height: 25px;
     width: 200px;
+    font-size: 18px;
     border-radius: 4px;
      border-color: #00820D;
      background-color: white;
+     text-align: center;
+     margin-bottom: 10px;
 
+  }
+  #checkAgree{
+    margin-bottom: 10px;
+  }
+  
+
+  #ageage{
+    margin-bottom: 10px;
+  }
+  #ageage1{
+    margin-bottom: 10px;
   }
 
   .divuser{
@@ -332,7 +402,7 @@ width: 100%;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 250px;
+    height: 400px;
     background-color: #D9D9D9 ;
     padding-top: 60px;
     
@@ -340,15 +410,16 @@ width: 100%;
   .footerdiv{
     
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    /* flex-wrap: nowrap; */
   }
   .divicon{
     width: 100%;
   }
-  .div-divide{
+  /* .div-divide{
     width: 100%;
     height: 10px;
     background-color: white;
   }
- 
+  */
+  

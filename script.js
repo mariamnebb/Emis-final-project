@@ -34,7 +34,7 @@ document.getElementById('registration').addEventListener('submit',function(event
     let userName= document.getElementById('username').value
 
     if(userName.length < 2 || userName == ''){
-        errors.username = " დაწერეთ მომხმარებლის სახელი"
+        errors.username = " please write username"
 
     }
 
@@ -149,17 +149,7 @@ document.getElementById("loadprev").addEventListener("click", function () {
   
 });
 
-// let loadPrev = document.getElementById("loadprev");
 
-// if (loadPrev) {
-//   loadPrev.addEventListener("click", function () {
-//     if (currentPage === 1) {
-//       return;
-//     }
-//     currentPage -= 1;
-//     getUsers(currentPage);
-//   });
-// }
 
 
 document.getElementById("loadnext").addEventListener("click", function () {
@@ -173,3 +163,9 @@ document.getElementById("loadnext").addEventListener("click", function () {
 getUsers(currentPage);
 
 
+hamburger.addEventListener("click", function () {
+  navigation.classList.toggle("active");
+  hamburger.innerHTML = navigation.classList.contains("active")
+    ? '<i class="fas fa-times"></i>'
+    : '<i class="fa-solid fa-bars"></i>';
+});
