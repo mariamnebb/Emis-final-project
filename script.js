@@ -18,8 +18,6 @@
 //     }
 // })
 
-let navigation = document.getElementById('navigation')
-let burger = document.getElementById('burger')
 
 burger.addEventListener('click', function(){
 if (navigation.classList.contains('activeNavigation')){
@@ -120,7 +118,7 @@ function getUsers(page) {
       return response.json();
     })
     .then(function (responseData) {
-      // let container = document.getElementById('container')
+      let container = document.getElementById('container')
       let fragment = document.createDocumentFragment();
       totalPages = responseData.total_pages;
       console.log(responseData);
@@ -169,9 +167,6 @@ document.getElementById("loadprev").addEventListener("click", function () {
   
 });
 
-
-
-
 document.getElementById("loadnext").addEventListener("click", function () {
   if (currentPage === totalPages) {
     return;
@@ -181,11 +176,3 @@ document.getElementById("loadnext").addEventListener("click", function () {
 });
 
 getUsers(currentPage);
-
-
-hamburger.addEventListener("click", function () {
-  navigation.classList.toggle("active");
-  hamburger.innerHTML = navigation.classList.contains("active")
-    ? '<i class="fas fa-times"></i>'
-    : '<i class="fa-solid fa-bars"></i>';
-});

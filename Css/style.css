@@ -378,48 +378,45 @@
  
  
   /* fetch */
-  .container {
-     max-width: 100%;
-     width: 100%;
-     background-color: #D9D9D9;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-pack: center;
-         -ms-flex-pack: center;
-             justify-content: center;
-   }
-   
-   #ul_list {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -ms-flex-wrap: wrap;
-         flex-wrap: wrap;
-     max-width: 100%;
-     width: 100%;
-     -webkit-box-pack: center;
-         -ms-flex-pack: center;
-             justify-content: center;
-     gap: 10px;
-     overflow: hidden;
-   }
-   
- 
-   #loadprev,
-   #loadnext {
-     font-family: "DejaVu Sans";
-     font-size: 20px;
-     font-weight: 400;
-     color: rgb(16, 15, 15);
-     margin: 19px;
-     
-     border-radius: 10px;
-     background-color:white ;
-     cursor: pointer;
-     border-radius: 4px;
-     border-color: #00820D;
-   }
+  
+
+
+   .container {
+    max-width: 100%;
+    width: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #ul_list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+  }
+  
+
+  #loadprev,
+  #loadnext {
+    font-family: "DejaVu Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(16, 15, 15);
+    margin: 19px;
+    
+    border-radius: 10px;
+    background-color:white ;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: #00820D;
+  } 
+
+
+  
    #username{
      height: 40px;
      width: 600px;
